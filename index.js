@@ -1,5 +1,5 @@
 async function main() {
-  const { Telegraf, Markup } = require("telegraf");
+  const { Telegram, Markup } = require("telegram");
   const { getDetails } = require("./api");
   const { sendFile } = require("./utils");
   const express = require("express");
